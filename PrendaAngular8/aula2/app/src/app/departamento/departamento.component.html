@@ -1,0 +1,7 @@
+<h1>Departamentos</h1>
+
+<ul>
+    <li *ngFor="let departamento of departamentos" (click)="onSelect(departamento)">
+        {{ departamento.id }} - {{ departamento.nome }}
+    </li>
+</ul>
